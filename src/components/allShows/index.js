@@ -75,7 +75,7 @@ function AllShows(props) {
 
       {showFavourite ? (
         <div className="container" >
-          <p>Showing favorites</p>
+          <p className="text-center">Showing favorites</p>
           <div className="row justify-content-around">
             {favourite.map((val, index) => {
               return (
@@ -90,7 +90,7 @@ function AllShows(props) {
         </div>
       ) : (
           <div >
-             <p>Showing Shows</p>
+             <p className="text-center">Showing Shows</p>
             <div className="container mt-4">
               <div className="row justify-content-around mt-4">
                 {shows.map((val, index) => {
