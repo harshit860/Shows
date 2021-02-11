@@ -3,5 +3,5 @@
 - Adding to fav
 - Deleting from the fav
 - Fav checks and messages.
-- Jest test case
+- Jest test case- `yarn test` to run
 - React Hooks.
